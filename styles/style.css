@@ -10,6 +10,9 @@ main{
     display: flex;
     justify-content: center;
 }
+.top-players{
+    margin-bottom: 30px;
+}
 .top-players h1{
     color: #562eff;
     margin-top: 3px;
@@ -36,4 +39,8 @@ main{
 .player img{
     width: 56px;
     height: 56px;
+}
+hr{
+    border:1px solid #d1d1d1;
+   
 }
