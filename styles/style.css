@@ -1,17 +1,16 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* common style or utilities*/
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+    font-family: "Poppins", sans-serif;
     background-color: #f3f1ff;
     margin: 0;
     padding: 0;
-
 }
 /* ------------
 the styles of nav 
 ---------------*/
-nav{
+nav {
     width: 100%;
     background-color: blue;
     cursor: pointer;
@@ -19,47 +18,47 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
-.nav-logo{
+.nav-logo {
     display: flex;
     align-items: center;
 }
-.nav-img img{
+.nav-img img {
     width: 50px;
 }
-.nav-text h1{
+.nav-text h1 {
     color: white;
     margin-left: 5px;
 }
-.nav-item ul{
+.nav-item ul {
     display: flex;
     align-items: center;
 }
-.nav-item ul li{
+.nav-item ul li {
     list-style: none;
     margin-left: 25px;
 }
-.nav-item ul li a{
+.nav-item ul li a {
     text-decoration: none;
     color: white;
 }
-main{
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.top-players{
+.top-players {
     margin-bottom: 30px;
 }
-.top-players h1{
+.top-players h1 {
     color: #562eff;
     margin-top: 3px;
 }
 /* top players styles */
-.container{
+.container {
     background-color: #ffffff;
     width: 870px;
-    padding:30px;
+    padding: 30px;
     margin-top: 40px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -68,120 +67,116 @@ main{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.players{
+.players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
 }
-.player{
+.player {
     display: flex;
     align-items: center;
 }
-.player-name{
-    margin-left:15px;
+.player-name {
+    margin-left: 15px;
     font-size: 18px;
 }
-.player img{
+.player img {
     width: 56px;
     height: 56px;
 }
-hr{
-    border:1px solid #d1d1d1;
+hr {
+    border: 1px solid #d1d1d1;
     margin-bottom: 28px;
-   
 }
 /*--------------------------
  top blogs styles start here 
  ------------------------------*/
- .blogs{
-     display: grid;
-     grid-row-gap: 30px;
-     grid-template-columns: repeat(2, 1fr);
- }
-.top-blogs h1{
+.blogs {
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.top-blogs h1 {
     color: #562eff;
     margin-top: 3px;
 }
-.bolg-thumbnail img{
+.bolg-thumbnail img {
     width: 177px;
     height: 117px;
 }
-.blog{
+.blog {
     display: flex;
-
 }
 
-.blog-detail{
+.blog-detail {
     margin-left: 10px;
 }
-.blog-detail h2{
+.blog-detail h2 {
     font-size: 20px;
 }
-.blog-detail p{
-  color: #ad9a9a;
-  font-size: 16px;
+.blog-detail p {
+    color: #ad9a9a;
+    font-size: 16px;
 }
-.blog-detail a{
+.blog-detail a {
     text-decoration: none;
     font-size: 16px;
 }
 /* ----------------------
 couser css start here 
 --------------------*/
-.course-section-title{
+.course-section-title {
     color: #562eff;
-
 }
-.latest-courses{
+.latest-courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-.course-thumbnail img{
+.course-thumbnail img {
     width: 260px;
 }
-.course-detail h2{
+.course-detail h2 {
     font-size: 20px;
 }
-.course-detail p{
+.course-detail p {
     color: rgba(255, 0, 0, 0.7);
     font-size: 16px;
 }
-.course-feedback{
+.course-feedback {
     display: flex;
     align-items: center;
 }
-.course-feedback img{
+.course-feedback img {
     width: 20px;
 }
-.fa-star{
-    width:20px;
-    color:rgba(182, 175, 145, 1);
+.fa-star {
+    width: 20px;
+    color: rgba(182, 175, 145, 1);
 }
-.course-feedback-img{
+.course-feedback-img {
     display: flex;
     align-items: center;
 }
-.course-feedback-text p{
-    color:rgba(182, 175, 145, 2);
+.course-feedback-text p {
+    color: rgba(182, 175, 145, 2);
     margin-left: 10px;
     font-size: 20px;
-
 }
-.course-feedback-time{
+.course-feedback-time {
     margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.clock img{
- margin-top: 5px;
+.clock img {
+    margin-top: 5px;
 }
-.time p{
+.time p {
     color: crimson;
     margin-left: 5px;
 }
-.course-feedback-time{
-    background-color:rgba(167, 20, 20, 0.2);
+.course-feedback-time {
+    background-color: rgba(167, 20, 20, 0.2);
     padding: 2px;
     border-radius: 7px;
     height: 30px;
