@@ -146,6 +146,47 @@ couser css start here
     color: rgba(255, 0, 0, 0.7);
     font-size: 16px;
 }
+.course-feedback{
+    display: flex;
+    align-items: center;
+}
 .course-feedback img{
     width: 20px;
+}
+.fa-star{
+    width:20px;
+    color:rgba(182, 175, 145, 1);
+}
+.course-feedback-img{
+    display: flex;
+    align-items: center;
+}
+.course-feedback-text p{
+    color:rgba(182, 175, 145, 2);
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+.course-feedback-time{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock img{
+ margin-top: 5px;
+}
+.time p{
+    color: crimson;
+    margin-left: 5px;
+}
+.course-feedback-time{
+    background-color:rgba(167, 20, 20, 0.2);
+    padding: 2px;
+    border-radius: 7px;
+    height: 30px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
 }
