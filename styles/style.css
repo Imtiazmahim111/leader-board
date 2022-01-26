@@ -4,10 +4,48 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #f3f1ff;
+    margin: 0;
+    padding: 0;
 
+}
+/* ------------
+the styles of nav 
+---------------*/
+nav{
+    width: 100%;
+    background-color: blue;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-img img{
+    width: 50px;
+}
+.nav-text h1{
+    color: white;
+    margin-left: 5px;
+}
+.nav-item ul{
+    display: flex;
+    align-items: center;
+}
+.nav-item ul li{
+    list-style: none;
+    margin-left: 25px;
+}
+.nav-item ul li a{
+    text-decoration: none;
+    color: white;
 }
 main{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 .top-players{
@@ -22,6 +60,13 @@ main{
     background-color: #ffffff;
     width: 870px;
     padding:30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .players{
     display: grid;
@@ -63,7 +108,9 @@ hr{
 }
 .blog{
     display: flex;
+
 }
+
 .blog-detail{
     margin-left: 10px;
 }
@@ -77,4 +124,28 @@ hr{
 .blog-detail a{
     text-decoration: none;
     font-size: 16px;
+}
+/* ----------------------
+couser css start here 
+--------------------*/
+.course-section-title{
+    color: #562eff;
+
+}
+.latest-courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.course-thumbnail img{
+    width: 260px;
+}
+.course-detail h2{
+    font-size: 20px;
+}
+.course-detail p{
+    color: rgba(255, 0, 0, 0.7);
+    font-size: 16px;
+}
+.course-feedback img{
+    width: 20px;
 }
