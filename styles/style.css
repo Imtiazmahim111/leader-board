@@ -13,7 +13,7 @@ main{
 .top-players{
     margin-bottom: 30px;
 }
-.section-title{
+.top-players h1{
     color: #562eff;
     margin-top: 3px;
 }
@@ -42,5 +42,39 @@ main{
 }
 hr{
     border:1px solid #d1d1d1;
+    margin-bottom: 28px;
    
+}
+/*--------------------------
+ top blogs styles start here 
+ ------------------------------*/
+ .blogs{
+     display: grid;
+     grid-row-gap: 30px;
+     grid-template-columns: repeat(2, 1fr);
+ }
+.top-blogs h1{
+    color: #562eff;
+    margin-top: 3px;
+}
+.bolg-thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog{
+    display: flex;
+}
+.blog-detail{
+    margin-left: 10px;
+}
+.blog-detail h2{
+    font-size: 20px;
+}
+.blog-detail p{
+  color: #ad9a9a;
+  font-size: 16px;
+}
+.blog-detail a{
+    text-decoration: none;
+    font-size: 16px;
 }
